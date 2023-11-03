@@ -35,10 +35,6 @@ fn c() {
 //*Watch  */
 //*https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_1_D&lang=en*/
 fn d() {
-    // proconio::input! {
-    //     input: i32,
-    // }
-
     let mut buf = String::new();
     std::io::stdin().read_line(&mut buf).unwrap();
     let input: i32 = buf.trim().parse().unwrap();
