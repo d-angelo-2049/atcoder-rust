@@ -2,6 +2,7 @@ fn main() {
     a();
     b();
     c();
+    d();
 }
 
 //*Hello World */
@@ -29,4 +30,21 @@ fn c() {
     let rec: i32 = 2 * (a + b);
     let space: i32 = a * b;
     println!("{} {}", space, rec);
+}
+
+//*Watch  */
+//*https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_1_D&lang=en*/
+fn d() {
+    // proconio::input! {
+    //     input: i32,
+    // }
+
+    let mut buf = String::new();
+    std::io::stdin().read_line(&mut buf).unwrap();
+    let input: i32 = buf.trim().parse().unwrap();
+
+    let h = input / 3600;
+    let m  = (input / 60) % 60;
+    let s = (input % 3600) % 60;
+    println!("{}:{}:{}", h, m, s);
 }
