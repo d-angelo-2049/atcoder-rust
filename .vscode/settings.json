@@ -5,7 +5,9 @@
     "./itp1-2/Cargo.toml",
     "./abs330/Cargo.toml",
     "./abc332/Cargo.toml",
-    "./abc334/Cargo.toml"
+    "./abc334/Cargo.toml",
+    "./abc336/Cargo.toml"
+
   ],
   "rust-analyzer.showUnlinkedFileNotification": false
 }
